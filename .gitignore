@@ -1,0 +1,18 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated index and environments
+faiss_index/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Source PDFs are downloaded by the user (see data/README.md)
+data/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
